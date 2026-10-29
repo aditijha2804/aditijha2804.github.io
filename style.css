@@ -34,3 +34,74 @@
 .cert-arrow{margin-left:auto;color:var(--blue)}
 @media(max-width:760px){.profile-portrait-wrap{top:-5px;left:4px;width:82px;height:82px}.certifications-grid{grid-template-columns:1fr}}
 @media(max-width:420px){.profile-portrait-wrap{width:70px;height:70px}}
+
+
+/* Darker midnight-blue theme: high contrast, restrained blue accents */
+:root {
+  --paper: #101722;
+  --white: #151f2d;
+  --ink: #edf3fb;
+  --muted: #a4b0c1;
+  --soft: #1b2737;
+  --blue: #6ba8ff;
+  --blue-dark: #397fe0;
+  --line: #2a3748;
+  --mint: #1e3a34;
+  --gold: #e7bd68;
+}
+body { background: var(--paper); color: var(--ink); }
+.site-header { background: rgba(16,23,34,.9); border-bottom-color: rgba(54,70,91,.72); }
+.brand-mark { background: #6ba8ff; color: #0b1421; }
+.nav-link { color: #a4b0c1; }
+.nav-link:hover,.nav-link.active { color: #f5f8ff; }
+.nav-cta,.button-secondary,.button-resume { background: #182333; border-color: #35445a; color: #edf3fb; }
+.nav-cta:hover,.button-secondary:hover,.button-resume:hover { background: #26364b; border-color: #58749b; }
+.hero:before { background: radial-gradient(circle,rgba(69,129,216,.18),transparent 68%); }
+.eyebrow { color: #9aabc1; }
+.hero-kicker,.hero-description,.heading-aside,.about-intro p,.about-note>p:not(.note-label),.project-info>p,.education-intro,.timeline-content p,.value-card p,.contact-copy>p:not(.eyebrow) { color: var(--muted); }
+.hero h1 span:first-child,.brand-dot,.heading-period,.section-heading h2 span,.contact-copy h2 span { color: var(--blue); }
+.visual-orbit { border-color: rgba(107,168,255,.22); }
+.orbit-two { border-color: rgba(107,168,255,.12); }
+.visual-card { background: #1a2636; border-color: #34445a; box-shadow: 0 28px 80px rgba(0,0,0,.32); }
+.visual-card-top { background: #202d3e; border-bottom-color: #34445a; }
+.visual-card-top .mono,.visual-bottom span { color: #a4b2c5; }
+.live-tag { background: #203d36; color: #8be0b0; }
+.visual-icon,.skill-symbol,.value-icon,.cert-mark { background: #223a59; color: #82b6ff; }
+.visual-label { color: #9aabc1; }
+.mini-chart { border-bottom-color: #35445a; }
+.mini-chart span { background: linear-gradient(180deg,#5598f2,#233d5e); }
+.mini-chart span:nth-child(2n) { background: linear-gradient(180deg,#8dbdff,#29466a); }
+.floating-chip { background: rgba(27,39,55,.96); border-color: #39495e; color: #e8eff9; box-shadow: 0 14px 38px rgba(0,0,0,.28); }
+.chip-symbol { background: #1e4037; color: #7de0aa; }
+.chip-blue { background: #223a59; color: #82b6ff; }
+.visual-caption,.hero-footer,.social-label { color: #8494aa; }
+.scroll-line { background: #3a4a5e; }
+.about-section,.values-section,.site-footer { background: #141e2b; border-color: #273548; }
+.about-note,.education-section,.contact-section { background: #111b28; border-color: #273548; }
+.about-note { border-color: #2d3d51; }
+.about-note:after { border-color: #34485f; box-shadow: 0 0 0 20px #172333,0 0 0 40px #141f2e; }
+.note-line { background: #35465c; }
+.skills-section,.certifications-section { background: #101722; }
+.skill-card,.project-card,.timeline-content,.value-card,.cert-card,.contact-form { background: #172231; border-color: #2d3c50; }
+.skill-card:hover,.project-card:hover,.cert-card:hover { border-color: #547caf; box-shadow: 0 18px 44px rgba(0,0,0,.24); }
+.skill-tags span,.project-tags span { background: #202f42; color: #b5c6dc; border-color: #314259; }
+.project-art { background: #1a2636; }
+.project-meta,.project-note,.skill-number,.cert-card p { color: #9aabc1; }
+.project-status { color: #8be0b0; background: #203d36; }
+.project-links { border-color: #2c3b4e; }
+.timeline { border-left-color: #35475e; }
+.timeline-marker { background: #111b28; box-shadow: 0 0 0 5px #20324a; }
+.marker-soft { box-shadow: 0 0 0 5px #263342; }
+.timeline-date { background: #202e40; color: #b4c2d4; }
+.certifications-section { border-top-color: #273548; }
+.cert-mark { background: #223a59; }
+.contact-form label { color: #c1cddd; }
+.contact-form input,.contact-form textarea { background: #111a27; border-color: #34445a; color: #edf3fb; }
+.contact-form input:focus,.contact-form textarea:focus { border-color: #6ba8ff; box-shadow: 0 0 0 3px rgba(107,168,255,.13); }
+.contact-form input::placeholder,.contact-form textarea::placeholder,.form-note { color: #7f90a6; }
+.form-heading .mono,.contact-socials a { color: #a4b4c8; }
+.email-link { border-color: #40536b; }
+.footer-inner>p,.copyright { color: #8999ae; }
+@media(max-width:760px) { .nav-links { background: #101722; border-bottom-color: #2a3748; } }
+.profile-portrait-wrap { background: #172231; border-color: #6ba8ff; box-shadow: 0 14px 32px rgba(0,0,0,.4); }
+.portrait-status { border-color: #172231; }
