@@ -21,7 +21,7 @@
 
 
 .button-resume{border-color:#dce2e7;background:#fff;color:var(--ink)}.button-resume:hover{background:#f2f6fa}
-.profile-portrait-wrap{position:absolute;z-index:4;top:4px;left:7px;width:104px;height:104px;border-radius:50%;padding:4px;background:#fff;border:2px solid var(--blue);box-shadow:0 12px 28px rgba(32,53,78,.14);overflow:visible}
+.profile-portrait-wrap{position:absolute;z-index:4;top:4px;left:7px;width:150px;height:150px;border-radius:50%;padding:4px;background:#fff;border:2px solid var(--blue);box-shadow:0 12px 28px rgba(32,53,78,.14);overflow:visible}
 .profile-portrait{width:100%;height:100%;object-fit:cover;object-position:center 28%;border-radius:50%;display:block}
 .portrait-status{position:absolute;right:1px;bottom:4px;width:16px;height:16px;background:#51ad7b;border:3px solid #fff;border-radius:50%}
 .certifications-section{background:#fbfbf8;border-top:1px solid #edf0f2}
@@ -32,8 +32,8 @@
 .cert-card h3{font-family:var(--display);font-size:12px;line-height:1.5;margin:0 0 3px}
 .cert-card p{font-size:10px;color:var(--muted);margin:0}
 .cert-arrow{margin-left:auto;color:var(--blue)}
-@media(max-width:760px){.profile-portrait-wrap{top:-5px;left:4px;width:82px;height:82px}.certifications-grid{grid-template-columns:1fr}}
-@media(max-width:420px){.profile-portrait-wrap{width:70px;height:70px}}
+@media(max-width:760px){.profile-portrait-wrap{top:-5px;left:4px;width:118px;height:118px}.certifications-grid{grid-template-columns:1fr}}
+@media(max-width:420px){.profile-portrait-wrap{width:96px;height:96px}}
 
 
 /* Darker midnight-blue theme: high contrast, restrained blue accents */
